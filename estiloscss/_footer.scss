@@ -1,0 +1,46 @@
+/*---------------------------Inicio Footer*/
+//Variables
+$color-contenido-texto: white;
+$bg-footer: #3e464b;
+$color-hover: #ffc3a0;
+
+#footer {
+    background-color: $bg-footer;
+    color: $color-contenido-texto;
+    padding: 2.5rem;
+    font-size: 1.2rem;
+
+    .footer-nav-categorias {
+        text-align: center;
+        margin-left: 10rem;
+    }
+
+    .footer-nav-redessociales {
+        text-align: center;
+        margin-right: 10rem;
+        margin-top: 0rem;
+    }
+
+    li,
+    a {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        color: $color-contenido-texto;
+    }
+
+    a:hover {
+        color: $color-hover;
+        transition-duration: 1s;
+    }
+}
+
+h6 {
+    text-align: center;
+    color: white;
+}
+
+/*---------------------------Fin Footer*/

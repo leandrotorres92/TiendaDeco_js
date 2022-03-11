@@ -1,0 +1,32 @@
+// Importados
+@import "estilobase";
+@import "header";
+@import "contenido";
+@import "secciones";
+@import "footer";
+@import "mediasqueries";
+
+//Variables
+$color-hover2: #c55f00;
+$color-sombra: #acbdc4;
+
+//Mixins
+@mixin banner($sombra) {
+    box-shadow: $sombra;
+}
+
+@mixin textobanner($color, $transicion, $opacidad) {
+    color: $color;
+    transition-duration: $transicion;
+    opacity: $opacidad;
+}
+
+//Includes
+.contenido-banner {
+    @include banner($color-sombra 4px 5px 5px 0px);
+}
+
+//Extend
+.seccion-banner {
+    @extend .contenido-banner;
+}

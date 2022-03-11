@@ -1,0 +1,172 @@
+/*---------------------------Seccion--Contenido*/
+//Variables
+$color-contenido-texto: white;
+$color-contenido-textoprincipal: #3e464b;
+$color-carousel-texto: #0c1430;
+$color-hover: #ffc3a0;
+$color-sombra: #acbdc4;
+$color-sombra-oscuro: #475158;
+$bg-banner: #364953;
+$color-hover-texto: black;
+$bg-menu: #364953;
+
+#main {
+    padding-top: 10rem;
+
+    /*contenido-carousel*/
+    .img_1 {
+        height: 450px;
+    }
+
+    .texto_1 {
+        color: $color-carousel-texto;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .contenido {
+        width: 80%;
+        background-color: $color-contenido-texto;
+
+        .contenido-texto {
+            padding: 1rem;
+            color: $color-contenido-textoprincipal;
+            font-weight: 500;
+            justify-content: center;
+
+            .contenido-texto-titulos {
+                width: 30%;
+                text-align: end;
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+
+                .textoprincipal,
+                h1 {
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    font-size: 2.5rem;
+                    font-weight: 900;
+                    line-height: 3rem;
+                }
+
+                .textosecundario {
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    font-size: 20px;
+                    font-weight: 900;
+                    line-height: 2rem;
+                }
+
+                .textosecundario-lema {
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    line-height: 3rem;
+                }
+            }
+
+            .contenido-texto-imagen {
+                padding-top: 4rem;
+                padding-left: 5rem;
+
+                .img_2 {
+                    width: 400px;
+                    height: 400px;
+                    border-radius: 200px;
+                    animation-name: efecto_zoom;
+                    animation-duration: 4s;
+                }
+
+                @keyframes efecto_zoom {
+                    0% {
+                        width: 400px;
+                        height: 400px;
+                    }
+                    25% {
+                        width: 410px;
+                        height: 410px;
+                    }
+                    50% {
+                        width: 420px;
+                        height: 420px;
+                    }
+                    100% {
+                        transform: rotateY(360deg);
+                    }
+                }
+            }
+        }
+
+        .contenido-banner {
+            justify-content: start;
+            background-color: $bg-banner;
+            color: $color-contenido-texto;
+            border-radius: 5px;
+            padding: 3.5rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+
+            .barrasuscribirse {
+                padding-left: 3rem;
+                line-height: 2.5rem;
+                width: 40%;
+            }
+        }
+
+        .contenido-banner:hover {
+            background-color: $color-sombra;
+            color: $color-sombra-oscuro;
+            transition-duration: 1s;
+        }
+
+        .contenido-productos {
+            text-align: center;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+
+            .contenido-productos-titulo,
+            h3 {
+                text-align: center;
+                font-size: 2.8rem;
+                font-weight: 600;
+            }
+
+            .img_3 {
+                width: 300px;
+                height: 300px;
+                border-radius: 15px;
+                box-shadow: $color-sombra-oscuro 3px 3px 3px 3px;
+            }
+
+            .img_3:hover {
+                width: 315px;
+                height: 315px;
+                transition-duration: 0.8s;
+                box-shadow: $color-sombra 3px 3px 3px 3px;
+            }
+
+            .texto_3 {
+                text-align: center;
+                font-size: 0.9rem;
+                font-weight: 500;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-top: 1rem;
+                padding-bottom: 0.5rem;
+            }
+
+            .agregarCarrito{
+                background-color: white;
+                color: black;
+                font-size: 1.15rem;
+                font-weight: 500;
+                padding: 0.45rem;
+            }
+
+            .agregarCarrito:hover{
+                background-color: $bg-menu;
+                color: $color-contenido-texto;
+            }
+        }
+    }
+}
+/*---------------------------Fin-Seccion--Contenido*/

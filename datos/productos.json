@@ -1,0 +1,75 @@
+[{
+    "id": 0,
+    "nombre": "Individual",
+    "tipo": "Estampados",
+    "medidas": "34dm",
+    "precio": 650,
+    "img": "./imagenes/cocina y comedor/cc9.jpg"
+
+}, {
+    "id": 1,
+    "nombre": "Individual",
+    "tipo": "Labrados",
+    "medidas": "34dm",
+    "precio": 650,
+    "img": "./imagenes/cocina y comedor/cc4.jpg"
+
+}, {
+    "id": 2,
+    "nombre": "Individual",
+    "tipo": "Termicos",
+    "medidas": "34dm",
+    "precio": 650,
+    "img": "./imagenes/cocina y comedor/cc7.jpg"
+
+}, {
+
+    "id": 3,
+    "nombre": "Mantel",
+    "tipo": " Navideño",
+    "medidas": "2,10 x 1,40 metros",
+    "precio": 2000,
+    "img": "./imagenes/cocina y comedor/cc1.jpg"
+
+}, {
+
+    "id": 4,
+    "nombre": "Mantel",
+    "tipo": "line",
+    "medidas": "2,10 x 2,40 metros",
+    "precio": 2000,
+    "img": "./imagenes/cocina y comedor/cc2.jpg"
+
+}, {
+    "id": 5,
+    "nombre": "Caminitos",
+    "tipo": "Tuzor",
+    "medidas": "2,10 x 0,35 metros",
+    "precio": 2300,
+    "img": "./imagenes/living/c1.jpg"
+
+}, {
+    "id": 6,
+    "nombre": "Caminitos",
+    "tipo": "Gabardina",
+    "medidas": "2,10 x 0,35 metros",
+    "precio": 2300,
+    "img": "./imagenes/living/c3.jpg"
+
+}, {
+    "id": 7,
+    "nombre": "Almohadones",
+    "tipo": "Antimanchas",
+    "medidas": "0,40 x 0,40 metros",
+    "precio": 600,
+    "img": "./imagenes/living/a2.jpg"
+
+}, {
+    "id": 8,
+    "nombre": "Almohadones",
+    "tipo": "Funda Desmontable",
+    "medidas": "0,30 x 0,30 metros",
+    "precio": 500,
+    "img": "./imagenes/living/a3.jpg"
+
+}]

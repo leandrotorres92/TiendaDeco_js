@@ -1,0 +1,73 @@
+/*--------------------------------------Inicio--Header*/
+//Variables
+$color-contenido-texto: white;
+$color-hover: #ffc3a0;
+$color-hover-texto: black;
+$bg-menu: #364953;
+
+#header {
+    z-index: 1030;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    .menusuperior {
+        background-color: $bg-menu;
+        height: 6rem;
+        
+        .titulo{
+            color: #ffc3a0;
+            text-decoration: none;
+        }
+
+        .btnbuscar {
+            background-color: $bg-menu;
+            color: $color-contenido-texto;
+            font-size: 1.15rem;
+            font-weight: 500;
+            padding: 0.45rem;
+            border: none;
+        }
+
+        .btnbuscar:hover {
+            background-color: $color-hover;
+            color: $color-hover-texto;
+            transition-duration: 0.5s;
+            opacity: 85%;
+        }
+
+
+        .btnCarrito {
+            background-color: white;
+            .btnimg{
+                width: 22px;
+                height: 25px;
+            }
+
+        }
+    }
+
+    .menuinferior {
+        background-image: url("../imagenes/navbar/nav1.jpg");
+
+        a {
+            font-size: 1.15rem;
+            font-weight: 500;
+            padding: 0.45rem;
+            margin: 1rem;
+            border-radius: 4px;
+            background-color: $bg-menu;
+            color: $color-contenido-texto;
+        }
+
+        a:hover {
+            background-color: $color-hover;
+            color: $color-hover-texto;
+            transition-duration: 0.5s;
+            opacity: 85%;
+        }
+    }
+}
+
+/*--------------------------------------Fin--Header*/
