@@ -266,7 +266,7 @@ function bucarProductos() {
         if (resultado.textContent === "") {
           swal({
             icon: "warning",
-            text: "El producto no se encuentra disponible!!",
+            text: "El producto no se encuentra disponible!!",           
             timer: "2800",
           });
         }
